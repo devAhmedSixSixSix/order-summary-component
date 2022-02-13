@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(224, 23%, 55%);
+  line-height: 1.4;
+  transition: 0.3s;
+}
+
+body {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Red Hat Display", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+h2,
+h6 {
+  color: #000;
+}
+
+.container {
+  text-align: center;
+  width: 370px;
+  background-color: #fff;
+  border-radius: 22px;
+  margin-bottom: 11px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 270px;
+    font-size: 13px;
+  }
+}
+
+.container .image {
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+  width: 100%;
+}
+
+.text,
+h2 {
+  padding: 11px;
+}
+
+.holder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fe;
+  width: 80%;
+  margin: auto;
+  padding: 14px;
+  border-radius: 11px;
+}
+
+.holder img {
+  padding-right: 11px;
+}
+
+.holder .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.holder a:hover {
+  color: hsl(245, 75%, 52%);
+}
+
+button {
+  display: block;
+  margin: 22px auto 11px;
+  width: 80%;
+  outline: none;
+  border: none;
+  padding: 14px;
+  border-radius: 11px;
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+span {
+  display: block;
+  padding: 22px;
+  cursor: pointer;
+}
+
+span:hover {
+  color: hsl(223, 47%, 23%);
+}
